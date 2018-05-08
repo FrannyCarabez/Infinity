@@ -4,13 +4,48 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+	#region variables
+	public bool onGround;
+	private Rigidbody rb;
+	#endregion
+
+
+	#region methods
+
+	/// <summary>
+	/// Start is called on the frame when a script is enabled just before
+	/// any of the Update methods is called the first time.
+	/// </summary>
+	void Start()
+	{
+		onGround = true;
+		rb = GetComponent<Rigidbody>();
+	}
+
+	 /// <summary>
+	/// Update is called every frame, if the MonoBehaviour is enabled.
+	/// </summary>
+	void Update()
+	{
+		if(onGround)
+		{
+			if(Input.GetButtonDown("Jump"))
+			{
+				rb.velocity = new Vector3(0f, 8f, 0f);
+				onGround = false;
+			}
+		}
 		
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+
+	void OnCollisionEnter(Collision other) 
+	{
+		if(other.gameObject.CompareTag ("Ground"))
+		{
+			onGround = true;
+		}
 	}
+
+	#endregion
+
 }
