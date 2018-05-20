@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 
+	public float speed;
+
 	#region variables
 	public bool onGround;
 	private Rigidbody rb;
@@ -36,6 +38,18 @@ public class Player : MonoBehaviour {
 			}
 		}
 		
+	}
+
+	/// <summary>
+	/// This function is called every fixed framerate frame, if the MonoBehaviour is enabled.
+	/// </summary>
+	void FixedUpdate()
+	{
+		float moveHorizontal = Input.GetAxis ("Horizontal");
+
+        Vector3 movement = new Vector3 ( 0.0f, 0.0f,moveHorizontal);
+
+        rb.AddForce (movement * speed);
 	}
 
 	void OnCollisionEnter(Collision other) 
