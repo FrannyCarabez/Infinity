@@ -45,11 +45,11 @@ public class Player : MonoBehaviour {
 	/// </summary>
 	void FixedUpdate()
 	{
-		float moveHorizontal = Input.GetAxis ("Horizontal");
+		//float moveHorizontal = Input.GetAxis ("Horizontal");
 
-        Vector3 movement = new Vector3 ( 0.0f, 0.0f,moveHorizontal);
+        //Vector3 movement = new Vector3 ( 0.0f, 0.0f,moveHorizontal);
 
-        rb.AddForce (movement * speed);
+        //rb.AddForce (movement * speed);
 	}
 
 	void OnCollisionEnter(Collision other) 
