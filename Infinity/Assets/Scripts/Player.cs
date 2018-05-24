@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 
-	public float speed;
-
 	#region variables
+	public float speed;
 	public bool onGround;
 	private Rigidbody rb;
+
+	float posX = 6.63f;
+
+	bool isGameOver = false;
+
+	Spawner mySpawner;
 	#endregion
 
 
@@ -22,6 +27,8 @@ public class Player : MonoBehaviour {
 	{
 		onGround = true;
 		rb = GetComponent<Rigidbody>();
+		posX = transform.position.x;
+		mySpawner = GameObject.FindObjectOfType<Spawner>();
 	}
 
 	 /// <summary>
@@ -31,12 +38,14 @@ public class Player : MonoBehaviour {
 	{
 		if(onGround)
 		{
-			if(Input.GetButtonDown("Jump"))
+			if(Input.GetButtonDown("Jump") && !isGameOver)
 			{
 				rb.velocity = new Vector3(0f, 8f, 0f);
 				onGround = false;
 			}
 		}
+
+		
 		
 	}
 
@@ -45,11 +54,24 @@ public class Player : MonoBehaviour {
 	/// </summary>
 	void FixedUpdate()
 	{
-		//float moveHorizontal = Input.GetAxis ("Horizontal");
+		float moveHorizontal = Input.GetAxis ("Horizontal");
 
-        //Vector3 movement = new Vector3 ( 0.0f, 0.0f,moveHorizontal);
+        Vector3 movement = new Vector3 ( 0.0f, 0.0f,moveHorizontal);
 
-        //rb.AddForce (movement * speed);
+        rb.AddForce (movement * speed);
+
+		//Hit face check
+		if (transform.position.x > posX)
+		{
+			GameOver();
+		}
+	}
+
+	void GameOver()
+	{
+		Debug.Log("GameOver");
+		isGameOver = true;
+		mySpawner.GameOver();
 	}
 
 	void OnCollisionEnter(Collision other) 

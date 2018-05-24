@@ -15,6 +15,8 @@ public class Spawner : MonoBehaviour {
 	float counter = 0.0f;
 
 	public Transform challengesSpawnPoint;
+
+	bool isGameOver = false;
 	GameObject currentChild;
 	// Use this for initialization
 	void Start () {
@@ -23,6 +25,8 @@ public class Spawner : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+		if(isGameOver) return;
 
 		//Generate Objects() 
 		if (counter <= 0.0f)
@@ -46,7 +50,6 @@ public class Spawner : MonoBehaviour {
 			// destroying the object when it goes out the screen
 			if (currentChild.transform.position.x >= 15.0f)
 			{
-				Debug.Log("DIE");
 				Destroy(currentChild);
 			}
 		}
@@ -69,5 +72,11 @@ public class Spawner : MonoBehaviour {
 		
 		// set counter 1 so it starts to go down to spawn another one after it goes under 0
 		counter = 1.5f;
+	}
+
+	public void GameOver()
+	{
+		isGameOver = true;
+		
 	}
 }
