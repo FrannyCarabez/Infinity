@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class Items : MonoBehaviour {
 
-	void onCollisionEnter(Collision collision) 
+	void OnTriggerEnter(Collider other)
 	{
-		Destroy (collision.gameObject);
-	}
+		if (other.tag == "Player") {
+			Destroy (gameObject);
+		}
+	}	
 
 }
