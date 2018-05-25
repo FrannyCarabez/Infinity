@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour {
 
@@ -13,6 +14,8 @@ public class Player : MonoBehaviour {
 
 	bool isGameOver = false;
 
+	private int count;
+	public Text countText;
 	Spawner mySpawner;
 	#endregion
 
@@ -29,6 +32,9 @@ public class Player : MonoBehaviour {
 		rb = GetComponent<Rigidbody>();
 		posX = transform.position.x;
 		mySpawner = GameObject.FindObjectOfType<Spawner>();
+
+		count=0;
+		SetCountText();
 	}
 
 	 /// <summary>
@@ -43,6 +49,7 @@ public class Player : MonoBehaviour {
 				rb.velocity = new Vector3(0f, 8f, 0f);
 				onGround = false;
 			}
+
 		}
 
 		
@@ -83,6 +90,25 @@ public class Player : MonoBehaviour {
 		{
 			onGround = true;
 		}
+	}
+
+	void OnTriggerEnter(Collider other)
+	{
+		if (other.tag == "Good") {
+			Destroy (other.gameObject);
+			count=count+1;
+			SetCountText();
+		}
+
+		if(other.tag == "Bad"){
+			Destroy(other.gameObject);
+			count=count-1;
+			SetCountText();
+		}
+	}
+
+	void SetCountText(){
+		countText.text = "Score:" + count.ToString();
 	}
 
 	#endregion
