@@ -54,8 +54,10 @@ public class Player : MonoBehaviour {
 	/// </summary>
 	void FixedUpdate()
 	{
+		// creating a variable (getting the horizontal movement)
 		float moveHorizontal = Input.GetAxis ("Horizontal");
 
+		// creating another variable that has moving coordinates .
         Vector3 movement = new Vector3 ( 0.0f, 0.0f,moveHorizontal);
 
         rb.AddForce (movement * speed);
@@ -67,6 +69,7 @@ public class Player : MonoBehaviour {
 		}
 	}
 
+	// a function for when the player hits an obstacles
 	void GameOver()
 	{
 		Debug.Log("GameOver");
