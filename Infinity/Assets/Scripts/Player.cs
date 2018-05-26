@@ -17,6 +17,12 @@ public class Player : MonoBehaviour {
 	private int count;
 	public Text countText;
 	Spawner mySpawner;
+
+	private CountDown Script; 
+
+	public string tagObjectGood;
+	public string tagObjectBad;
+	
 	#endregion
 
 
@@ -28,6 +34,9 @@ public class Player : MonoBehaviour {
 	/// </summary>
 	void Start()
 	{
+		Script = GetComponent<CountDown>();
+		//tagObjectGood = "Good";
+		//tagObjectBad = "Bad";
 		onGround = true;
 		rb = GetComponent<Rigidbody>();
 		posX = transform.position.x;
@@ -92,15 +101,18 @@ public class Player : MonoBehaviour {
 		}
 	}
 
+	
+
 	void OnTriggerEnter(Collider other)
-	{
-		if (other.tag == "Good") {
+	{	
+		
+		if (other.tag == tagObjectBad) {
 			Destroy (other.gameObject);
 			count=count+1;
 			SetCountText();
 		}
 
-		if(other.tag == "Bad"){
+		else if(other.tag == tagObjectGood){
 			Destroy(other.gameObject);
 			count=count-1;
 			SetCountText();
@@ -112,5 +124,5 @@ public class Player : MonoBehaviour {
 	}
 
 	#endregion
-
+	//Script.currentGameMode == GameMode.Procrastinate
 }
