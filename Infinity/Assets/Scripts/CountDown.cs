@@ -7,61 +7,43 @@ public class CountDown : MonoBehaviour {
 
 	[SerializeField] private Text uiText;
 	[SerializeField] private float mainTimer;
+	[SerializeField] private Text mode;
 
 	private float timer;
 	private bool canCount = true;
-	private bool doOnce = false;
+	private bool doOnce = true;
 
 	private Player player;
-	public GameMode currentGameMode;
 
-	
-
-	public enum GameMode
-	{
-		Productive, 
-		Procrastinate
-	}
 
 	public void Start()
 	{
-		
+		player = GameObject.FindObjectOfType<Player>();	
 		timer = mainTimer;
-		currentGameMode = GameMode.Procrastinate;
+		GameManager.currentGameMode = GameMode.Procrastinate;
+		
 		
 	}
 	public void Update()
 	{
-		player = GetComponent<Player>();
 		if (timer >= 0.0f && canCount)
 		{
 			timer -= Time.deltaTime;
 			uiText.text = timer.ToString("f");
+			mode.text = GameManager.currentGameMode.ToString();
 		}
-
-		else if(timer <= 0.0f && !doOnce){
-			/*canCount=false;
-			doOnce = true;
-			uiText.text= "0.00";
-			timer= 0.0f;*/
+		else if(timer < 0.0f){
+			if (doOnce)
+			{
+				GameManager.currentGameMode = GameMode.Productive;
+				doOnce = false;
+			}
+			else
+			{
+				GameManager.currentGameMode = (GameMode)Random.Range(0,2);
+			}
 			timer=mainTimer;
 			canCount= true;
-			doOnce = false;
-			currentGameMode = (GameMode)Random.Range(0,2);
-		}
-
-		switch (currentGameMode)
-		{
-			case GameMode.Procrastinate:
-				Debug.Log("procrastinating");
-				player.tagObjectGood = "Good";
-				player.tagObjectBad = "Bad";
-				break;
-			case GameMode.Productive:
-				Debug.Log("producing");
-				player.tagObjectGood = "Bad";
-				player.tagObjectBad = "Good";
-				break;
 		}
 	}
 }

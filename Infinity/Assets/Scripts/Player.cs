@@ -106,17 +106,18 @@ public class Player : MonoBehaviour {
 	void OnTriggerEnter(Collider other)
 	{	
 		
-		if (other.tag == tagObjectBad) {
-			Destroy (other.gameObject);
-			count=count+1;
-			SetCountText();
+		Items item = other.GetComponent<Items>();
+		if (item.gameMode == GameManager.currentGameMode)
+		{
+			count++;
+		}
+		else
+		{
+			count--;
 		}
 
-		else if(other.tag == tagObjectGood){
-			Destroy(other.gameObject);
-			count=count-1;
-			SetCountText();
-		}
+		Destroy (other.gameObject);
+		SetCountText();
 	}
 
 	void SetCountText(){
