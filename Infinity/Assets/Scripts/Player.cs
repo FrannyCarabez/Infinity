@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour {
 
@@ -11,6 +12,7 @@ public class Player : MonoBehaviour {
 	private Rigidbody rb;
 
 	float posX = 6.63f;
+	float posY = 0f;
 
 	bool isGameOver = false;
 
@@ -83,6 +85,11 @@ public class Player : MonoBehaviour {
 		{
 			GameOver();
 		}
+
+		if (transform.position.y < posY)
+		{
+			GameOver();
+		}
 	}
 
 	// a function for when the player hits an obstacles
@@ -91,6 +98,7 @@ public class Player : MonoBehaviour {
 		Debug.Log("GameOver");
 		isGameOver = true;
 		mySpawner.GameOver();
+		SceneManager.LoadScene (2);
 	}
 
 	void OnCollisionEnter(Collision other) 
