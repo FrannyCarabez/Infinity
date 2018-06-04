@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 8
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -38,8 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
+<<<<<<< HEAD
   m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
+=======
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -55,10 +59,11 @@ LightmapSettings:
     m_EnableBakedLightmaps: 1
     m_EnableRealtimeLightmaps: 1
   m_LightmapEditorSettings:
-    serializedVersion: 10
+    serializedVersion: 9
     m_Resolution: 2
     m_BakeResolution: 40
-    m_AtlasSize: 1024
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
     m_AO: 0
     m_AOMaxDistance: 1
     m_CompAOExponent: 1
@@ -113,6 +118,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1001 &54621901
 Prefab:
   m_ObjectHideFlags: 0
@@ -160,6 +166,8 @@ Prefab:
     - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: c7d0ee7f7b1cd684593138df8ff832cd, type: 2}
   m_IsPrefabParent: 0
+=======
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
 --- !u!1001 &181252931
 Prefab:
   m_ObjectHideFlags: 0
@@ -286,8 +294,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scrollSpeed: 5
   challenges:
+<<<<<<< HEAD
   - {fileID: 1899845451418062, guid: 26be0f554381c0049ad30da61ec01491, type: 2}
   - {fileID: 1984920026448794, guid: e3774ce7cfcf7d34696fc32f7ce5d3c9, type: 2}
+=======
+  - {fileID: 1443666006729064, guid: 1d5e8ba8e0ea9714cb7b3813e11605e6, type: 2}
+  - {fileID: 1568731560150960, guid: c1a981a6a08aeb3449b623311592002f, type: 2}
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
   frequency: 0.5
   challengesSpawnPoint: {fileID: 1462704123}
 --- !u!4 &195843886
@@ -297,19 +310,28 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 195843884}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: -46.8, y: 0.8, z: 0}
+=======
+  m_LocalPosition: {x: -42.33, y: 1.7, z: 0}
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1001 &524668278
+=======
+--- !u!1001 &367330557
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 4113788394683622, guid: a6ba2652b5438ca4783fba32c9f4d0d9, type: 2}
       propertyPath: m_LocalPosition.x
       value: 6.36
@@ -348,6 +370,42 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a6ba2652b5438ca4783fba32c9f4d0d9, type: 2}
+=======
+    - target: {fileID: 4474402870816090, guid: c1a981a6a08aeb3449b623311592002f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -7.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474402870816090, guid: c1a981a6a08aeb3449b623311592002f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474402870816090, guid: c1a981a6a08aeb3449b623311592002f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -4.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474402870816090, guid: c1a981a6a08aeb3449b623311592002f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474402870816090, guid: c1a981a6a08aeb3449b623311592002f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474402870816090, guid: c1a981a6a08aeb3449b623311592002f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474402870816090, guid: c1a981a6a08aeb3449b623311592002f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474402870816090, guid: c1a981a6a08aeb3449b623311592002f, type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: c1a981a6a08aeb3449b623311592002f, type: 2}
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
   m_IsPrefabParent: 0
 --- !u!1 &644727647
 GameObject:
@@ -681,7 +739,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: b4b1eb1c688d6254aa40de3de82ea2ba, type: 2}
   m_StaticBatchInfo:
@@ -893,11 +950,19 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1462704122}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: -44.510002, y: 0.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
+=======
+  m_LocalPosition: {x: -42.33, y: 1.7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1680336674
 GameObject:
@@ -1117,6 +1182,7 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1750093234}
+<<<<<<< HEAD
 --- !u!1001 &1756429278
 Prefab:
   m_ObjectHideFlags: 0
@@ -1209,6 +1275,8 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a6ba2652b5438ca4783fba32c9f4d0d9, type: 2}
   m_IsPrefabParent: 0
+=======
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
 --- !u!1 &1925439708
 GameObject:
   m_ObjectHideFlags: 0
@@ -1257,7 +1325,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 7bfd64169ec016c4cae5e88362b861e2, type: 2}
   m_StaticBatchInfo:
