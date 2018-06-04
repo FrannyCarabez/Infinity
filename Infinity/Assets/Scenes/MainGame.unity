@@ -39,8 +39,12 @@ RenderSettings:
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
+=======
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
 =======
   m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 >>>>>>> parent of 18bf611... 2 types of hurdle challenges
@@ -119,6 +123,7 @@ NavMeshSettings:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &54621901
 Prefab:
   m_ObjectHideFlags: 0
@@ -166,6 +171,8 @@ Prefab:
     - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: c7d0ee7f7b1cd684593138df8ff832cd, type: 2}
   m_IsPrefabParent: 0
+=======
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
 =======
 >>>>>>> parent of 18bf611... 2 types of hurdle challenges
 --- !u!1001 &181252931
@@ -295,8 +302,13 @@ MonoBehaviour:
   scrollSpeed: 5
   challenges:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 1899845451418062, guid: 26be0f554381c0049ad30da61ec01491, type: 2}
   - {fileID: 1984920026448794, guid: e3774ce7cfcf7d34696fc32f7ce5d3c9, type: 2}
+=======
+  - {fileID: 1443666006729064, guid: 1d5e8ba8e0ea9714cb7b3813e11605e6, type: 2}
+  - {fileID: 1568731560150960, guid: c1a981a6a08aeb3449b623311592002f, type: 2}
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
 =======
   - {fileID: 1443666006729064, guid: 1d5e8ba8e0ea9714cb7b3813e11605e6, type: 2}
   - {fileID: 1568731560150960, guid: c1a981a6a08aeb3449b623311592002f, type: 2}
@@ -311,7 +323,11 @@ Transform:
   m_GameObject: {fileID: 195843884}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: -46.8, y: 0.8, z: 0}
+=======
+  m_LocalPosition: {x: -42.33, y: 1.7, z: 0}
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
 =======
   m_LocalPosition: {x: -42.33, y: 1.7, z: 0}
 >>>>>>> parent of 18bf611... 2 types of hurdle challenges
@@ -321,8 +337,11 @@ Transform:
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &524668278
 =======
+=======
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
 --- !u!1001 &367330557
 >>>>>>> parent of 18bf611... 2 types of hurdle challenges
 Prefab:
@@ -331,6 +350,7 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD
 <<<<<<< HEAD
     - target: {fileID: 4113788394683622, guid: a6ba2652b5438ca4783fba32c9f4d0d9, type: 2}
       propertyPath: m_LocalPosition.x
@@ -371,6 +391,8 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a6ba2652b5438ca4783fba32c9f4d0d9, type: 2}
 =======
+=======
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
     - target: {fileID: 4474402870816090, guid: c1a981a6a08aeb3449b623311592002f, type: 2}
       propertyPath: m_LocalPosition.x
       value: -7.93
@@ -405,6 +427,9 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c1a981a6a08aeb3449b623311592002f, type: 2}
+<<<<<<< HEAD
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
+=======
 >>>>>>> parent of 18bf611... 2 types of hurdle challenges
   m_IsPrefabParent: 0
 --- !u!1 &644727647
@@ -951,11 +976,19 @@ Transform:
   m_GameObject: {fileID: 1462704122}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: -44.510002, y: 0.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
+=======
+  m_LocalPosition: {x: -42.33, y: 1.7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
 =======
   m_LocalPosition: {x: -42.33, y: 1.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -1183,6 +1216,7 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1750093234}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1756429278
 Prefab:
   m_ObjectHideFlags: 0
@@ -1275,6 +1309,8 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a6ba2652b5438ca4783fba32c9f4d0d9, type: 2}
   m_IsPrefabParent: 0
+=======
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
 =======
 >>>>>>> parent of 18bf611... 2 types of hurdle challenges
 --- !u!1 &1925439708
