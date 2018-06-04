@@ -1,13 +1,1 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-m_EditorVersion: 2018.1.1f1
-=======
-m_EditorVersion: 2017.3.1f1
->>>>>>> parent of 18bf611... 2 types of hurdle challenges
-=======
-m_EditorVersion: 2017.3.1f1
->>>>>>> parent of 18bf611... 2 types of hurdle challenges
-=======
-m_EditorVersion: 2017.3.1f1
->>>>>>> parent of 18bf611... 2 types of hurdle challenges
+m_EditorVersion: 2018.1.2f1
