@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Base path: D:/Program Files/Unity/Editor/Data
 Cmd: initializeCompiler
 Cmd: initializeCompiler
@@ -10,6 +11,8 @@ Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 =======
+=======
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
 =======
 >>>>>>> parent of 18bf611... 2 types of hurdle challenges
 Base path: D:/Unity/Editor/Data
@@ -135,6 +138,9 @@ Cmd: compileSnippet
 Cmd: compileSnippet
   api=4 type=1 insize=5216 outsize=854 kw=UNDERLAY_ON pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
+=======
 >>>>>>> parent of 18bf611... 2 types of hurdle challenges
 =======
 >>>>>>> parent of 18bf611... 2 types of hurdle challenges

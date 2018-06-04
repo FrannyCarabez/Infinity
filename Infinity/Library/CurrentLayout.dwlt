@@ -26,6 +26,9 @@ MonoBehaviour:
   m_RootView: {fileID: 5}
   m_MinSize: {x: 950, y: 542}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
+=======
 >>>>>>> parent of 18bf611... 2 types of hurdle challenges
 =======
 >>>>>>> parent of 18bf611... 2 types of hurdle challenges
@@ -100,6 +103,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 275
     height: 731
   m_MinSize: {x: 232, y: 471}
@@ -113,6 +117,13 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
+=======
+    width: 344
+    height: 947
+  m_MinSize: {x: 232, y: 492}
+  m_MaxSize: {x: 10002, y: 14042}
+  vertical: 1
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
 =======
     width: 344
     height: 947
@@ -140,12 +151,15 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 275
     height: 342
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
 =======
+=======
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
 =======
 >>>>>>> parent of 18bf611... 2 types of hurdle challenges
     width: 344
@@ -389,9 +403,14 @@ MonoBehaviour:
   m_LastFoldersGridSize: -1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastProjectPath: D:\Unity\Infinity\Infinity
   m_LockTracker:
     m_IsLocked: 0
+=======
+  m_LastProjectPath: C:\Users\Franc\OneDrive\Documents\GitHub\Infinity\Infinity
+  m_IsLocked: 0
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
 =======
   m_LastProjectPath: C:\Users\Franc\OneDrive\Documents\GitHub\Infinity\Infinity
   m_IsLocked: 0
@@ -406,7 +425,11 @@ MonoBehaviour:
     m_LastClickedID: 11134
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000c4090000720a0000
+=======
+    m_ExpandedIDs: 00000000a6350000ee350000
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
 =======
     m_ExpandedIDs: 00000000a6350000ee350000
 >>>>>>> parent of 18bf611... 2 types of hurdle challenges
@@ -439,6 +462,7 @@ MonoBehaviour:
   m_AssetTreeState:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
@@ -450,10 +474,15 @@ MonoBehaviour:
     m_ExpandedIDs: 6017feff00000000a6350000023600007a360000c836000010370000
 >>>>>>> parent of 18bf611... 2 types of hurdle challenges
 =======
+=======
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
     scrollPos: {x: 0, y: 28}
     m_SelectedIDs: 
     m_LastClickedID: 0
     m_ExpandedIDs: 6017feff00000000a6350000023600007a360000c836000010370000
+<<<<<<< HEAD
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
+=======
 >>>>>>> parent of 18bf611... 2 types of hurdle challenges
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -616,7 +645,11 @@ MonoBehaviour:
   m_SceneLighting: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   lastFramingTime: 8945.929057270274
+=======
+  lastFramingTime: 747.0620407667016
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
 =======
   lastFramingTime: 747.0620407667016
 >>>>>>> parent of 18bf611... 2 types of hurdle challenges
@@ -629,9 +662,15 @@ MonoBehaviour:
   m_Position:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -12.422852, y: 13.5625, z: -19.015625}
     speed: 2
     m_Value: {x: -12.422852, y: 13.5625, z: -19.015625}
+=======
+    m_Target: {x: -7.9, y: 4.5604, z: -4.3684}
+    speed: 2
+    m_Value: {x: -7.9, y: 4.5604, z: -4.3684}
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
 =======
     m_Target: {x: -7.9, y: 4.5604, z: -4.3684}
     speed: 2
@@ -667,6 +706,7 @@ MonoBehaviour:
   m_Rotation:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.1418444, y: 0.048978277, z: -0.0070270477, w: 0.9886523}
     speed: 2
     m_Value: {x: 0.1418443, y: 0.048978243, z: -0.0070270426, w: 0.9886516}
@@ -674,6 +714,18 @@ MonoBehaviour:
     m_Target: 48.311195
     speed: 2
     m_Value: 48.311195
+=======
+=======
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
+    m_Target: {x: 0.03922799, y: -0.7918252, z: 0.051142808, w: 0.60733324}
+    speed: 2
+    m_Value: {x: 0.039228085, y: -0.7918271, z: 0.051142935, w: 0.60733473}
+  m_Size:
+    m_Target: 16.540766
+    speed: 2
+    m_Value: 16.540766
+<<<<<<< HEAD
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
 =======
     m_Target: {x: 0.03922799, y: -0.7918252, z: 0.051142808, w: 0.60733324}
     speed: 2
@@ -684,13 +736,6 @@ MonoBehaviour:
     m_Value: 16.540766
 >>>>>>> parent of 18bf611... 2 types of hurdle challenges
 =======
-    m_Target: {x: 0.03922799, y: -0.7918252, z: 0.051142808, w: 0.60733324}
-    speed: 2
-    m_Value: {x: 0.039228085, y: -0.7918271, z: 0.051142935, w: 0.60733473}
-  m_Size:
-    m_Target: 16.540766
-    speed: 2
-    m_Value: 16.540766
 >>>>>>> parent of 18bf611... 2 types of hurdle challenges
   m_Ortho:
     m_Target: 1
@@ -736,7 +781,11 @@ MonoBehaviour:
     m_LastClickedID: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: e0e0ffff44f4ffff7ef9ffff5afafffff0fbffff00000000
+=======
+    m_ExpandedIDs: 9aa8fffffeccffff00000000
+>>>>>>> parent of 18bf611... 2 types of hurdle challenges
 =======
     m_ExpandedIDs: 9aa8fffffeccffff00000000
 >>>>>>> parent of 18bf611... 2 types of hurdle challenges
