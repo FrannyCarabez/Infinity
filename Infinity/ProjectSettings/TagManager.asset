@@ -8,6 +8,7 @@ TagManager:
   - Item
   - Bad
   - Good
+  - Wall
   layers:
   - Default
   - TransparentFX

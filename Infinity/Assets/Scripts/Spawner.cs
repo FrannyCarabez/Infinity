@@ -59,7 +59,7 @@ public class Spawner : MonoBehaviour {
 	void ScrollChallenge (GameObject currentChallenge){
 
 		// the challanges (obstacles) will start to move towards the player
-		currentChallenge.transform.position -= Vector3.left * (scrollSpeed * Time.deltaTime);
+		currentChallenge.transform.position -= Vector3.back * (scrollSpeed * Time.deltaTime);
 
 	}
 

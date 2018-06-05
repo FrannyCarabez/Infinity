@@ -13,6 +13,8 @@ public class Player : MonoBehaviour {
 
 	float posX = 6.63f;
 	float posY = 0f;
+	
+	float posZ = 30f;
 
 	bool isGameOver = false;
 
@@ -63,6 +65,15 @@ public class Player : MonoBehaviour {
 
 		}
 
+		if(rb.position.z > posZ)
+		{
+			GameOver();
+		}
+
+		if(count == 20)
+		{
+			GameOver();
+		}
 		
 		
 	}
@@ -75,21 +86,11 @@ public class Player : MonoBehaviour {
 		// creating a variable (getting the horizontal movement)
 		float moveHorizontal = Input.GetAxis ("Horizontal");
 
-		// creating another variable that has moving coordinates .
-        Vector3 movement = new Vector3 ( 0.0f, 0.0f,moveHorizontal);
+		Vector3 vel = rb.velocity;
+		vel.x = -moveHorizontal * speed;
+		rb.velocity = vel;
 
-        rb.AddForce (movement * speed);
-
-		//Hit face check
-		if (transform.position.x > posX)
-		{
-			GameOver();
-		}
-
-		if (transform.position.y < posY)
-		{
-			GameOver();
-		}
+		
 	}
 
 	// a function for when the player hits an obstacles
@@ -113,6 +114,11 @@ public class Player : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other)
 	{	
+		if (other.tag == "Wall")
+		{
+			GameOver();
+			return;
+		}
 		
 		Items item = other.GetComponent<Items>();
 		if (item.gameMode == GameManager.currentGameMode)
