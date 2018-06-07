@@ -39,6 +39,11 @@ ModelImporter:
     2100006: blinn7
     2100008: blinn5
     2100010: blinn6
+    2100012: blinn10
+    2100014: blinn9
+    2100016: blinn11
+    2100018: blinn8
+    2100020: lambert2
     2300000: pCube1
     2300002: pCube2
     2300004: pCube3

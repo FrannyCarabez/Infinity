@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: b473ab8d70966f045bea1c6c96dfebba
-timeCreated: 1527278934
-licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -29,6 +27,10 @@ ModelImporter:
     2100002: blinn1
     2100004: blinn3
     2100006: lambert1
+    2100008: lambert5
+    2100010: blinn27
+    2100012: blinn28
+    2100014: blinn26
     2300000: pCube1
     2300002: pCube2
     2300004: pCube3
@@ -76,6 +78,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5

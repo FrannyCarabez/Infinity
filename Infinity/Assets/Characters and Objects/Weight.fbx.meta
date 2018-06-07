@@ -9,15 +9,20 @@ ModelImporter:
     100006: pCylinder4
     100008: pCylinder5
     100010: //RootNode
+    100012: group1
     400000: pCylinder1
     400002: pCylinder2
     400004: pCylinder3
     400006: pCylinder4
     400008: pCylinder5
     400010: //RootNode
+    400012: group1
     2100000: blinn3
     2100002: blinn1
     2100004: blinn2
+    2100006: blinn30
+    2100008: blinn29
+    2100010: blinn31
     2300000: pCylinder1
     2300002: pCylinder2
     2300004: pCylinder3
