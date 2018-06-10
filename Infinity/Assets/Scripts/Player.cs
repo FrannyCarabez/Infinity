@@ -70,7 +70,7 @@ public class Player : MonoBehaviour {
 			GameOver();
 		}
 
-		if(count == 20)
+		if(count == 5)
 		{
 			GameOver();
 		}

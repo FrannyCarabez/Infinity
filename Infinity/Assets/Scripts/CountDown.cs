@@ -44,6 +44,7 @@ public class CountDown : MonoBehaviour {
 			}
 			timer=mainTimer;
 			canCount= true;
+			Debug.Log(GameManager.currentGameMode);
 		}
 	}
 }
